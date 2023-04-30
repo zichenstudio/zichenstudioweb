@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript中的var、let、const的区别和用法 - 子沉Blog</title>
+    <link rel="shortcut icon" href="/img/blogicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/link.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="/js/jquery.min.js"></script>
+    <style>body{background-attachment:fixed;background-repeat:no-repeat;background-size:cover;background-position:center center;color:#000;display:flex;justify-content:center;font-family:sans-serif;margin:0}.content-wrapper{background-color:rgba(235,248,253,.85);margin:1% 2% 5% 2%;padding:1% 1.5% 3%;border-radius:20px;max-width:800px}.content-wrapper *{max-width:100%}ul{padding-left:10px;margin:10px}li{margin-bottom:10px}article{padding:0 20px 0 20px}header,footer{padding:10px}.home{padding:1em}.site-title{color:#000;font-weight:bold}.post-counter{font-weight:bold}.post-info{margin:auto}table{border-collapse:collapse;width:100%}thead tr th{background-color:#eee}thead tr:hover th{background-color:#333;color:#fff}th,td{padding:8px}tr:hover{background-color:#f5f5f5}td:hover{background-color:#ddd}</style>
+    <meta name="description" content="在 JavaScript 中，有三种声明变量的方式：var、let 和 const。它们有不同的作用域和使用方法，本文将为你详细介绍它们的区别和用法。">
+    
+
+</head>
+
+    <body class="start">
+        <div class="content-wrapper">
+            <header>
+                <a class="site-title" href="../../../." style="font-size: 125%;">子沉Blog</a>
+                <div style="display: inline-block">
+                    | <a href="/">子沉官方网站主页</a>
+                    | <a href="../../.././about/">About</a>
+                    | <a href="../../.././tags/">Tags</a>
+                </div>
+            </header>
+            <hr>
+            <main>
+                <article id="text-all">
+    <div class="post-header">
+        <h1>
+            <a href="/blog/index.html" style="font-size: 70%;color: #808080;" class="link">Back</a>
+            JavaScript中的var、let、const的区别和用法
+        </h1>
+        <p class="post-info">
+            <time datetime='2023/04/10-Mon'>2023/04/10-Mon</time>
+            
+            | <a href="/blog/tags/#技术">#技术</a>
+            
+        </p>
+    </div>
+    <p>在 JavaScript 中，有三种声明变量的方式：<code class="language-plaintext highlighter-rouge">var</code>、<code class="language-plaintext highlighter-rouge">let</code> 和 <code class="language-plaintext highlighter-rouge">const</code>。它们有不同的作用域和使用方法，本文将为你详细介绍它们的区别和用法。</p>
+
+<h2 id="var">var</h2>
+
+<p><code class="language-plaintext highlighter-rouge">var</code> 是 JavaScript 最早的声明变量的方式。它的特点是可以重复声明同一变量名（但不应该这样做），并且没有块级作用域，而是函数级作用域。在函数内定义的变量，外部是无法访问的。如果在函数内不使用关键字声明，会自动成为全局变量。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">bar</span><span class="p">);</span> <span class="c1">// 报错：bar 未定义</span>
+</code></pre></div></div>
+
+<h2 id="let">let</h2>
+
+<p><code class="language-plaintext highlighter-rouge">let</code> 是 ES6 引入的新特性，它的作用域是块级作用域。块级作用域是指在 <code class="language-plaintext highlighter-rouge">if/for/while</code> 等代码块内部定义的变量，外面是无法访问的。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">bar</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">bar</span><span class="p">);</span> <span class="c1">// 报错：bar 未定义</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">let</code> 需要先声明再使用，不能重复声明同一变量名。</p>
+
+<h2 id="const">const</h2>
+
+<p><code class="language-plaintext highlighter-rouge">const</code> 也是 ES6 的新特性，它用于声明常量。常量一旦声明，就不能被重新赋值。如果 <code class="language-plaintext highlighter-rouge">const</code> 声明一个对象，那么可以修改对象的属性，但不能重新赋值。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">PI</span> <span class="o">=</span> <span class="mf">3.1415</span><span class="p">;</span>
+<span class="nx">PI</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span> <span class="c1">// 报错：常量无法被重新赋值</span>
+
+<span class="kd">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="na">name</span><span class="p">:</span> <span class="dl">"</span><span class="s2">张三</span><span class="dl">"</span><span class="p">};</span>
+<span class="nx">obj</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span> <span class="c1">// 可以运行，因为只是修改了对象的属性</span>
+<span class="nx">obj</span> <span class="o">=</span> <span class="p">{};</span> <span class="c1">// 报错：常量无法被重新赋值</span>
+</code></pre></div></div>
+
+<p>与 <code class="language-plaintext highlighter-rouge">let</code> 类似，<code class="language-plaintext highlighter-rouge">const</code> 的作用域也是块级作用域。</p>
+
+<h2 id="总结">总结</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">var</code> 没有块级作用域，在函数内部定义的变量会提升到函数顶部；</li>
+  <li><code class="language-plaintext highlighter-rouge">let</code> 和 <code class="language-plaintext highlighter-rouge">const</code> 都有块级作用域；</li>
+  <li><code class="language-plaintext highlighter-rouge">let</code> 定义的变量可重新赋值，不可重复定义同一变量名；</li>
+  <li><code class="language-plaintext highlighter-rouge">const</code> 定义的变量不可重新赋值，定义对象时可以修改属性，不可重复定义同一变量名。</li>
+</ul>
+
+<p>建议在平时开发中优先使用 <code class="language-plaintext highlighter-rouge">let</code> 和 <code class="language-plaintext highlighter-rouge">const</code>。<code class="language-plaintext highlighter-rouge">var</code> 虽然历史悠久，但容易出现问题，不适合新项目使用。</p>
+
+
+    <script src="/js/getscript.js"></script>
+</article>
+
+            </main>
+            <hr>
+            <div class="copyright">
+            </div>
+            <div>
+                <p style="text-align: center;">
+                    <table>
+  <tbody>
+    <tr>
+      <td><a href="https://space.bilibili.com/1740643474">BiliBili</a></td>
+      <td><a href="https://github.com/ZiChenStudio">GitHub</a></td>
+      <td><a href="https://gitee.com/ZiChenStudio/">Gitee</a></td>
+      <td>技术支持: <a href="https://pillarzcs.netlify.app">Pillar</a></td>
+      <td>部分文案：<a href="https://space.bilibili.com/1091612759/">三哥</a></td>
+    </tr>
+  </tbody>
+</table>
+</p>
+            </div>
+        </div>
+        <!-- 回到顶部箭头 -->
+        <div class="up"><a href="#top"><img src=""></a></div>
+        <!-- JavaScript开始 -->
+        <script src="/js/getscript.js"></script>        
+    </body>
+</html>

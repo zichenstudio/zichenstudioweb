@@ -1,0 +1,53 @@
+/* 一言彩色css */
+.footer{
+    float: right;
+    background-color: rgba(241,241,241,0.3);
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer a{
+    animation-name: footercolor;
+    animation-duration: 24s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+}
+@keyframes footercolor {
+    0%   {color:rgb(254, 241, 0);}
+    4.2%  {color:rgb(251, 199, 1);}
+    8.4%  {color:rgb(244, 150, 0);}
+    12.6%  {color:rgb(235, 97, 0);}
+    16.8%  {color:rgb(229, 1, 18);}
+    21%  {color:rgb(231, 0, 52);}
+    25.2%  {color:rgb(229, 1, 80);}
+    29.4%  {color:rgb(229, 0, 105);}
+    33.6%  {color:rgb(229, 0, 126);}
+    37.8% {color:rgb(190, 1, 129);}
+    42% {color:rgb(147, 7, 132);}
+    46.2% {color:rgb(96, 24, 132);}
+    50.4% {color:rgb(29, 32, 135);}
+    54.6% {color:rgb(1, 71, 157);}
+    58.8% {color:rgb(1, 104, 183);}
+    63% {color:rgb(1, 134, 209);}
+    67.2% {color:rgb(2, 160, 233);}
+    71.4% {color:rgb(1, 159, 194);}
+    75.6% {color:rgb(1, 158, 151);}
+    79.8% {color:rgb(0, 155, 107);}
+    84% {color:rgb(0, 154, 68);}
+    88.2% {color:rgb(37, 171, 58);}
+    92.4% {color:rgb(143, 195, 32);}
+    96.8% {color:rgb(208, 220, 0);}
+    100%   {color:rgb(254, 241, 0);}
+}
+
+/* 回到顶部按钮开始 */
+.up{
+    float: right;
+    position: fixed;
+    height: 100px;  
+    width: 100px;
+    top: 65%;
+    right:5px;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minecraft红石 - 子沉Blog</title>
+    <link rel="shortcut icon" href="/img/blogicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/link.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="/js/jquery.min.js"></script>
+    <style>body{background-attachment:fixed;background-repeat:no-repeat;background-size:cover;background-position:center center;color:#000;display:flex;justify-content:center;font-family:sans-serif;margin:0}.content-wrapper{background-color:rgba(235,248,253,.85);margin:1% 2% 5% 2%;padding:1% 1.5% 3%;border-radius:20px;max-width:800px}.content-wrapper *{max-width:100%}ul{padding-left:10px;margin:10px}li{margin-bottom:10px}article{padding:0 20px 0 20px}header,footer{padding:10px}.home{padding:1em}.site-title{color:#000;font-weight:bold}.post-counter{font-weight:bold}.post-info{margin:auto}table{border-collapse:collapse;width:100%}thead tr th{background-color:#eee}thead tr:hover th{background-color:#333;color:#fff}th,td{padding:8px}tr:hover{background-color:#f5f5f5}td:hover{background-color:#ddd}</style>
+    <meta name="description" content="一个Minecraft玩家最重要的就是把红石学好">
+    
+
+</head>
+
+    <body class="start">
+        <div class="content-wrapper">
+            <header>
+                <a class="site-title" href="../../../." style="font-size: 125%;">子沉Blog</a>
+                <div style="display: inline-block">
+                    | <a href="/">子沉官方网站主页</a>
+                    | <a href="../../.././about/">About</a>
+                    | <a href="../../.././tags/">Tags</a>
+                </div>
+            </header>
+            <hr>
+            <main>
+                <article id="text-all">
+    <div class="post-header">
+        <h1>
+            <a href="/blog/index.html" style="font-size: 70%;color: #808080;" class="link">Back</a>
+            Minecraft红石
+        </h1>
+        <p class="post-info">
+            <time datetime='2023/02/19-Sun'>2023/02/19-Sun</time>
+            
+            | <a href="/blog/tags/#minecraft">#Minecraft</a>
+            
+        </p>
+    </div>
+    <p><strong>一个Minecraft玩家最重要的就是把红石学好</strong></p>
+
+<p>也许很多人不会红石,及时很多老玩家也不会红石.</p>
+
+<p>红石并不是很难的东西,只是<strong>有一些大佬为了修技术或省材料</strong>就把红石变得非常困难.</p>
+
+<p>本篇讲解红石基础,请点击文章标题下的”#Minecraft”来阅读更多Minecraft教程</p>
+
+<hr />
+
+<h2 id="说明">说明</h2>
+
+<p><strong>版本均以1.16.5,Java版做教程!!!</strong><br />
+会在合适地方写参考网址<br />
+其他Java版本大同小异.</p>
+
+<hr />
+
+<h2 id="红石粉">红石粉</h2>
+
+<p>作为电路元件的红石粉</p>
+
+<p>用于传输信号。</p>
+
+<p>放置
+    手持红石粉（红石粉是物品，放置后的红石粉则为方块）右键点击即可放置成为红石粉。红石粉能够附着在任何非透明方块顶部，或荧石、倒置的台阶与倒置的楼梯的顶部。如果其附着的方块被移除，那么红石粉就会掉落物品。<br />
+    红石粉的指向会决定其是否能影响毗邻的实体方块与红石元件。<br />
+    右击单个的红石粉可以改变它的样子，有十字状和点状，放置时它默认是十字状。<br />
+激活<br />
+    当它单个的样子呈十字状时，红石粉能够被毗邻的强充能方块，或开启的电源，或指向自己的输出信号的中继器/比较器激活，也可以被相连的激活的红石粉，但信号强度会逐格递减。而它单个的样子呈点状时，则它不能被激活，也不能传输信号和激活机械元件。<br />
+效果<br />
+    激活的红石粉激活它指向的机械元件。它会弱充能所指向的（包括它下方的）实体方块。</p>
+
+<hr />
+
+<h2 id="红石中继器">红石中继器</h2>
+
+<p>作为电路元件的红石中继器</p>
+
+<p>红石中继器用来传输信号，重新加强因距离而减弱的红石信号，延迟信号，和给予红石信号单向的传输方向。</p>
+
+<p>放置<br />
+    红石中继器可附着在任何非透明方块顶部，或在倒置楼梯和倒置台阶的顶部。如果附着的方块被移除，则红石中继器就会掉落为物品。<br />
+    一个红石中继器有前面和背面——箭头从背面指向前面。中继器只对背面的方块作出反应，对前面的方块传输信号（箭头的方向）。它的延迟是可调节的，通过右键它可将延迟设置成1至4刻（默认为1刻）。<br />
+激活<br />
+    红石中继器被任何在它背面信号激活。<br />
+效果<br />
+    一个充能的红石中继器激活在它前面的红石粉和机械，或者强充能一个不透明方块。它对在它下面，上面，侧面，背面的方块无影响。<br />
+    红石中继器不仅“中继”一个信号（为了传输重新加强），它也会产生1至4刻的延迟。红石中继器也会把任何持续时间短于它的延迟的脉冲增长到与它的延迟相符合。<br />
+    红石中继器能通过在它的侧面用另一个红石中继器或红石比较器“锁存”当前状态。一个锁定的中继器会保持状态直到解锁。<br /></p>
+
+<hr />
+
+<h2 id="红石比较器">红石比较器</h2>
+
+<p>红石比较器用于比较或相减两个信号，或用于检测容器的装载量以及某些方块的状态。</p>
+
+<p>放置<br />
+    红石比较器可附着在任何非透明方块顶部，或在倒置楼梯和倒置台阶的顶部。如果附着的方块被移除，那么红石比较器就会掉落为物品。<br />
+    红石比较器上面的箭头由比较器后端指向前端。后端与两侧为输入端，前端为输出端，也可以通过从侧面接收信号（详见下）。<br />
+    红石比较器有两种模式。点击比较器可以在比较模式（前端红石火把熄灭）和减法模式（前端红石火把点亮）之间切换。<br />
+激活<br />
+    红石比较器会在输入端有信号时被激活。红石比较器也可以检测后面的方块，包括后方非空的容器或特定的方块时（与比较器相隔1个实体方块时也可以）。比较器不会受其上方或下方的方块影响，但侧向输入会影响到输出信号强度（详见下）。<br />
+效果<br />
+    发出信号的比较器会激活前方的红石粉、机械元件、背对的红石中继器或比较器，也可以强充能前方的实体方块。对其他位置的方块没有影响。<br />
+    比较器的输出会被侧向输入的信号影响，只包括红石粉、红石块、红石中继器、另一个比较器的输入：</p>
+
+<p>        比较模式，红石比较器只会在输入信号强于侧面信号时输出的信号强度与输入相同，否则无输出。<br />
+        减法模式，红石比较器只会在输入信号强于侧面信号时输出两者的强度之差，否则无输出。<br /></p>
+
+<p>    被容器激活的红石比较器会输出反应容器物品栏装载程度的信号，以及反映其他方块的状态。<br /></p>
+
+<p>    版本特性<br /></p>
+
+<p>        Java版的红石比较器会主动过滤1红石刻长度的部分信号（如单个侦测器更新脉冲，讲台翻页脉冲）。<br />
+            但基岩版的红石比较器不存在此问题，理论上基岩版红石比较器的吞吐量可以比Java版高一倍。<br /></p>
+
+<p>            Java版比较器隔方块检测方块状态、方块实体和实体（如箱子，熔炉，讲台）时会被中间所隔的方块的信号强度所影响。<br />
+                基岩版比较器没有这个问题，甚至可以利用这个特性增加布线密度。<br /></p>
+
+<hr />
+
+<h2 id="红石块">红石块</h2>
+
+<p>红石块一般作为可被活塞推拉的永久性红石电源。</p>
+
+<p>开启<br />
+    永远处于开启状态。<br />
+效果<br />
+    红石块相当于15级强充能方块，能够激活毗邻的红石粉，还有四周背向的红石中继器与红石比较器，以及毗邻的机械元件。<br />
+    红石块对毗邻的实体方块没有任何影响。</p>
+
+<hr />
+
+<h2 id="按钮">按钮</h2>
+
+<p>按钮用于产生脉冲信号。按钮有两种类型：木质与石质。</p>
+
+<p>放置<br />
+    按钮可以附着在大多数非透明方块的任意一面，如果按钮附着的方块被移除，那么按钮将会掉落为物品。<br />
+开启<br />
+    玩家可以右键点击木质或石质按钮以激活。石质按钮一旦被按下，会保持其状态达10刻（1秒）；木质则为15刻（1.5秒），但如果是被发射的箭或三叉戟激活的话，木质按钮会保持激活，直到箭或三叉戟被捡起或在1分钟之后自然消失。<br />
+效果<br />
+    当激活时，按钮会充能其附着，激活毗邻的红石粉，也会激活四周背对着按钮的红石中继器和红石比较器。按钮也会激活毗邻的机械元件。<br /></p>
+
+<hr />
+
+<h2 id="拉杆">拉杆</h2>
+
+<p>作为电源的拉杆（按钮的特性是类似的）</p>
+
+<p>拉杆用于开启或关闭电路。</p>
+
+<p>放置
+    拉杆能够附着在大多数非透明方块的顶部、侧面或底部，或是倒置的台阶或倒置的楼梯顶部。如果其附着的方块被移除，那么拉杆就会掉落为物品。<br />
+开启<br />
+    玩家可以右键点击拉杆以开启和关闭。<br />
+效果<br />
+    当开启时，拉杆会充能其附着的方块，以及激活毗邻的红石粉和所有毗邻的机械元件。拉杆也会激活四周的背对的红石中继器和红石比较器。</p>
+
+<hr />
+
+<p>##侦测器</p>
+
+<p>侦测器可用来探测方块变化。</p>
+
+<p>放置
+    侦测器可朝向包括上方和下方在内的任何方向，还可以放在任何地方。放置侦测器时，侦测端（它的“脸部”）即探测方块变化的那一面会远离玩家，产生脉冲的那一面会朝向玩家。
+开启
+    侦测器“面前”的方块状态更改时会导致侦测器开启（例如，放置或挖走了一个方块，水变成冰，玩家更改了红石中继器的延迟等）。侦测器保持开启1红石刻，然后侦测器会自动关闭。
+    侦测器被活塞推动时也会开启。
+效果
+    当被开启时，侦测器会激活它的输出端的红石粉、红石中继器和机械元件，并强充能输出端的实体方块。</p>
+
+<hr />
+
+<h2 id="红石火把">红石火把</h2>
+
+<p>作为电源使用的红石火把</p>
+
+<p>红石火把能够激活电路，或用来使信号反相与纵向传输电能。</p>
+
+<p>放置<br />
+    红石火把能够依附在任何非透明方块的任何一面（除了下面），或者是玻璃、栅栏、墙、倒置的楼梯或栅栏的上面。如果其附着的方块被移除，那么红石火把就会掉落为物品。<br />
+激活<br />
+    红石火把会一直保持开启，除非激活它附着的方块[仅基岩版]（透明方块不可被激活，可以利用这个特性布线）或它附着的方块激活它[仅Java版]。<br />
+效果<br />
+    当开启时，红石火把能够将其上方的实体方块强充能，激活毗邻的红石粉，机械元件和四周背对着的红石中继器和红石比较器。<br />
+    红石火把不会影响其附着的方块。<br />
+注意事项<br />
+    若是红石火把亮灭交替过快，红石火把会“烧毁”。烧毁之后，如果红石火把得到一次更新（在Java版中，需要NC更新），其会重新开启。</p>
+
+<p>以上参考自<a href="https://minecraft.fandom.com/zh/wiki/%E7%BA%A2%E7%9F%B3%E5%85%83%E4%BB%B6%E5%88%97%E8%A1%A8">红石元件列表 - Minecraft Wiki，最详细的我的世界百科</a></p>
+
+<hr />
+
+<p>看了这些你大概就会的差不多了.</p>
+
+<p>现在就可以制造一些简单的红石设备了:D</p>
+
+<p>我制作的红石设备会在此Blog不经常发布.</p>
+
+<p>如果你想,可以参考着制作.</p>
+
+
+    <script src="/js/getscript.js"></script>
+</article>
+
+            </main>
+            <hr>
+            <div class="copyright">
+            </div>
+            <div>
+                <p style="text-align: center;">
+                    <table>
+  <tbody>
+    <tr>
+      <td><a href="https://space.bilibili.com/1740643474">BiliBili</a></td>
+      <td><a href="https://github.com/ZiChenStudio">GitHub</a></td>
+      <td><a href="https://gitee.com/ZiChenStudio/">Gitee</a></td>
+      <td>技术支持: <a href="https://pillarzcs.netlify.app">Pillar</a></td>
+      <td>部分文案：<a href="https://space.bilibili.com/1091612759/">三哥</a></td>
+    </tr>
+  </tbody>
+</table>
+</p>
+            </div>
+        </div>
+        <!-- 回到顶部箭头 -->
+        <div class="up"><a href="#top"><img src=""></a></div>
+        <!-- JavaScript开始 -->
+        <script src="/js/getscript.js"></script>        
+    </body>
+</html>
