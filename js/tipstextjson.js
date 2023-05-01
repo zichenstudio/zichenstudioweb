@@ -1112,7 +1112,8 @@ var tipsJsonText = [
     { "tips":"一定是我的打开方式不对！" },
     { "tips":"<span style=\"color:#FF0000;\"> \"得不到的永远都是最好的！\" </span>" },
     { "tips":"<span style=\"color:#FF0000;\"> \"忍者代码！\" </span>" },
+    { "tips":"<span style=\"color:#BA631C;\"> \"我要按摩，不正的那种\" </span>" },
     { "tips":"" }
 ]
 
-var tipsJsonTextNum = 1113; // 此处值应为有字的行数减1，注意是行数！
+var tipsJsonTextNum = 1114; // 此处值应为有字的行数减1，注意是行数！
