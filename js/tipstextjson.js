@@ -132,7 +132,6 @@ var tipsJsonText = [
     { "tips":"你知道吗?\"我能反杀\"可能是一种错觉。" },
     { "tips":"你知道吗?\"下一发能出金\"可能是一种错觉。" },
     { "tips":"你知道吗?继续看下去可能很浪费时间！" },
-    { "tips":"你知道吗?tTWAB()函数和tipsTextWriteAutoBug()函数是同一个效果！" },
     { "tips":"你知道吗?原来我是不知道的。" },
     { "tips":"还是有很多Bug呢！" },
     { "tips":"建议您使用Chrome、Firefox、Edge等主流浏览器(最新版)浏览本网站，IE等浏览器会出现错误！" },
@@ -195,11 +194,6 @@ var tipsJsonText = [
     { "tips":"使用tipsTextWriteAuto()函数可以自动播放，要暂停就刷新吧！" },
     { "tips":"使用tipsTextWriteAuto()函数后就不能双击切换了哦！" },
     { "tips":"tipsTextWriteAuto()函数是3秒换一个哦！" },
-    { "tips":"使用tipsTextWriteAutoBug()会发生有趣的事哦！" },
-    { "tips":"tipsTextWriteAutoBug()函数是0.5秒切换一条！" },
-    { "tips":"tipsTextWriteAutoBug()可以练习翻页速度" },
-    { "tips":"tTWAB()函数可以直接调用tipsTextWriteAutoBug()函数！" },
-    { "tips":"tipsTextWriteAutoBug()可以同时运行，但会非常卡顿！" },
     { "tips":"唔……" },
     { "tips":"*我经历了太多岁月，不会怕你这种东西。" },
     { "tips":"*你现在充满了决心。" },
@@ -1116,4 +1110,4 @@ var tipsJsonText = [
     { "tips":"" }
 ]
 
-var tipsJsonTextNum = 1114; // 此处值应为有字的行数减1，注意是行数！
+var tipsJsonTextNum = 1109; // 此处值应为有字的行数减1，注意是行数！
