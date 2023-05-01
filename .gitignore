@@ -2,16 +2,8 @@
 *.cache
 *.bak
 *.tmp
+*.swp
 
 # 一些不用文件
 *.log
 *.iso
-
-# 测试目录
-TEST/
-
-# 项目模版
-/te.html
-
-# 文件目录存放目录
-Directory/
