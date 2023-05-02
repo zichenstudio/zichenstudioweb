@@ -256,6 +256,11 @@ var tipsJsonText = [
     { "tips":"你喜欢追番吗？" },
     { "tips":"去看看《孙子兵法》吧！" },
     { "tips":"及时清空回收站！" },
+    { "tips":"<span style=\"color:#39C5BB;\"> お—お—お—お—お—お—お—お—お—お—お—お— </span>" },// wowaka
+    { "tips":"<span style=\"color:#39C5BB;\"> \"她还在唱着你的歌。\" </span>" },// wowaka
+    { "tips":"<span style=\"color:#39C5BB;\"> \"在你眼中能够看到我吗？\" </span>" },// wowaka
+    { "tips":"<span style=\"color:#39C5BB;\"> wowaka,晚安！ </span>" },// wowaka
+    { "tips":"<span style=\"color:#39C5BB;\"> 他以别人几倍的速度活着，名字叫現実逃避却比谁都重视自己的人生！ </span>" },// wowaka
     { "tips":"不会有人系统磁盘已经占用一半了吧？" },
     { "tips":"放下武器，咱友好交流！" },
     { "tips":"一本好书" },
@@ -1110,4 +1115,4 @@ var tipsJsonText = [
     { "tips":"" }
 ]
 
-var tipsJsonTextNum = 1109; // 此处值应为有字的行数减1，注意是行数！
+var tipsJsonTextNum = 1113; // 此处值应为有字的行数减1，注意是行数！
