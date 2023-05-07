@@ -1112,7 +1112,13 @@ var tipsJsonText = [
     { "tips":"<span style=\"color:#FF0000;\"> \"得不到的永远都是最好的！\" </span>" },
     { "tips":"<span style=\"color:#FF0000;\"> \"忍者代码！\" </span>" },
     { "tips":"<span style=\"color:#BA631C;\"> \"我要按摩，不正的那种\" </span>" },
+    { "tips":"\"以德服人\"" },
+    { "tips":"住手，别动那个BUG" },
+    { "tips":"我们会把代码写的尽可能的简短" },
+    { "tips":"几天之后就看不明白自己的代码了……" },
+    { "tips":"我们几乎不会使用形容词做变量名！" },
+    { "tips":"我们在尝试变为忍者！" },
     { "tips":"" }
 ]
 
-var tipsJsonTextNum = 1113; // 此处值应为有字的行数减1，注意是行数！
+var tipsJsonTextNum = 1119; // 此处值应为有字的行数减1，注意是行数！
