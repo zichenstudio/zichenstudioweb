@@ -1118,7 +1118,17 @@ var tipsJsonText = [
     { "tips":"几天之后就看不明白自己的代码了……" },
     { "tips":"我们几乎不会使用形容词做变量名！" },
     { "tips":"我们在尝试变为忍者！" },
+    { "tips":"珍爱生命，远离赌博！" },
+    { "tips":"多年以后……" },
+    { "tips":"网络热梗！" },
+    { "tips":"<span style=\"color:#FF0000;\"> \"听说房价已经高上天~\" </span>" },
+    { "tips":"\"今天老师不在家！\"" },
+    { "tips":"<span style=\"color:#FF0000;\"> \"我将！效忠于您！！\" </span>" },
+    { "tips":"你舅宠他爸!" },
+    { "tips":"<span style=\"color:#FF0000;\"> \"别人还在在起跑线上的时候，她却已经抢到了发令枪！\" </span>" },
+    { "tips":"<span style=\"color:#FF0000;\"> \"是……是那只狐狸！\" </span>" },
+    { "tips":"你有点太极端了.jpg" },
     { "tips":"" }
 ]
 
-var tipsJsonTextNum = 1119; // 此处值应为有字的行数减1，注意是行数！
+var tipsJsonTextNum = 1129; // 此处值应为有字的行数减1，注意是行数！
