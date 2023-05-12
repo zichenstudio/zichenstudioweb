@@ -13,8 +13,8 @@ $.getScript("/js/blog-code-line.js");
 
 // highlight.js文件
 // 顺次加载
-$.getScript('https://unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js', function() {
-    $('head').append('<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/default.min.css">');
+$.getScript('https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js', function() {
+    $('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/default.min.css">');
     $.getScript('/js/blog-code-line.js', function() {
         hljs.highlightAll();
     });
@@ -22,7 +22,7 @@ $.getScript('https://unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js',
 
 // ScrollReveal.js文件
 // 顺次加载
-$.getScript('https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js', function() {
+$.getScript('https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js', function() {
     $.getScript('/js/ScrollReveal-options.js');
 })
 
