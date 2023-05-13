@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title id="title">404 NOT FOUND</title>
         <script src="/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/link.css">
         <style>
             h2 {
                 margin-left: 5%;
@@ -15,7 +16,7 @@
         </style>
     </head>
     <body id="body">
-        <div style="text-align: center;">
+        <div style="text-align: center;" class="start">
             <h1>404</h1>
             <div>
                 <h2><span class="h2">NOT FOUND.</span></h2>
@@ -23,8 +24,12 @@
             <div>
                 <p class="404ph"><img src="" alt="404界面图片.jpg"></p>
             </div>
-            <p id="link"><a href="/index.html">我们的官网</a><br><a href="/blog/index.html">我们的Blog</a></p>
-            <input type="text" value="feedback"><button id="button">提交(Submit)</button>
+            <div>
+            <p>可能对你有帮助的链接：</p>
+            <p><a href="/index.html">我们的官网</a></p>
+            <p><a href="/blog/index.html">我们的Blog</a></p>
+            </div>
+            <textarea name="message" rows="5" cols="50" placeholder="这是反馈，但我们不一定能收到……"></textarea><br><button id="button">提交(Submit)</button>
             <p id="feedback"></p>
             <hr>
         </div>
