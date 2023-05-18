@@ -1,4 +1,5 @@
-let tipsTextWriteAutoStop = false, egg = 0, tipsTextWriteStop = false;
+$.ajax({url:'/js/tipstextjson.json',dataType:'json',async:false,success:function(data){tipsJsonText=data;}});
+let tipsJsonTextNum = tipsJsonText.length - 1,tipsTextWriteAutoStop = false, egg = 0, tipsTextWriteStop = false;
 let tipsTextEgg = () => {
     if (egg >= 100) $('.tipsTextEgg').html('<span style="color: #f00;">都100条了还不够吗?</span>');
     if (egg >= 1e3) $('.tipsTextEgg').html('<span style="color: #f00;">你真的很闲！</span>');
