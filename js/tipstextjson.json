@@ -1,4 +1,4 @@
-var tipsJsonText = [
+[
     { "tips":"这是我们的第一条提示语哦！" },
     { "tips":"点击<a href=\"https://github.com/ZiChenStudio/zichenstudioweb/issues/9\" target=\"_blank\">此处</a>投稿提示语!(需要Github账号)" },
     { "tips":"会代码真的可以为所欲为，新功能什么的分分钟就写好了。" },
@@ -257,11 +257,11 @@ var tipsJsonText = [
     { "tips":"你喜欢追番吗？" },
     { "tips":"去看看《孙子兵法》吧！" },
     { "tips":"及时清空回收站！" },
-    { "tips":"<span style=\"color:#39C5BB;\"> お—お—お—お—お—お—お—お—お—お—お—お— </span>" },// wowaka
-    { "tips":"<span style=\"color:#39C5BB;\"> \"她还在唱着你的歌。\" </span>" },// wowaka
-    { "tips":"<span style=\"color:#39C5BB;\"> \"在你眼中能够看到我吗？\" </span>" },// wowaka
-    { "tips":"<span style=\"color:#39C5BB;\"> wowaka,晚安！ </span>" },// wowaka
-    { "tips":"<span style=\"color:#39C5BB;\"> 他以别人几倍的速度活着，名字叫現実逃避却比谁都重视自己的人生！ </span>" },// wowaka
+    { "tips":"<span style=\"color:#39C5BB;\"> お—お—お—お—お—お—お—お—お—お—お—お— </span>" },
+    { "tips":"<span style=\"color:#39C5BB;\"> \"她还在唱着你的歌。\" </span>" },
+    { "tips":"<span style=\"color:#39C5BB;\"> \"在你眼中能够看到我吗？\" </span>" },
+    { "tips":"<span style=\"color:#39C5BB;\"> wowaka,晚安！ </span>" },
+    { "tips":"<span style=\"color:#39C5BB;\"> 他以别人几倍的速度活着，名字叫現実逃避却比谁都重视自己的人生！ </span>" },
     { "tips":"不会有人系统磁盘已经占用一半了吧？" },
     { "tips":"放下武器，咱友好交流！" },
     { "tips":"一本好书" },
@@ -1131,5 +1131,3 @@ var tipsJsonText = [
     { "tips":"你有点太极端了.jpg" },
     { "tips":"" }
 ]
-
-var tipsJsonTextNum = 1130; // 此处值应为有字的行数减1，注意是行数！
