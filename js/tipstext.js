@@ -10,4 +10,5 @@ function tipsTextWriteAuto() {
     setTimeout(() => {tipsTextWrite(),tipsTextWriteAuto()}, 3000);
 };
 tipsTextWrite();
-$(".tipsText").dblclick(() => tipsTextWriteStop === false ? tipsTextWrite() : null);
+$('.tipsText').dblclick(_=>tipsTextWriteStop||tipsTextWrite())
+
