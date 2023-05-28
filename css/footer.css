@@ -1,45 +1,43 @@
 /* 一言彩色css */
-.footer{
-    float: right;
-    background-color: rgba(241,241,241,0.3);
-    padding: 20px;
+.footer {
     position: fixed;
-    left: 0;
     bottom: 0;
+    left: 0;
     width: 100%;
+    background-color: rgba(241, 241, 241, 0.3);
+    padding: 20px;
+    float: right;
 }
-.footer a{
-    animation-name: footercolor;
-    animation-duration: 24s;
-    animation-delay: -2s;
-    animation-iteration-count: infinite;
+.footer a {
+    animation: footercolor 24s infinite -2s;
+    color: rgb(254, 241, 0);
 }
 @keyframes footercolor {
-    0%   {color:rgb(254, 241, 0);}
-    4.2%  {color:rgb(251, 199, 1);}
-    8.4%  {color:rgb(244, 150, 0);}
-    12.6%  {color:rgb(235, 97, 0);}
-    16.8%  {color:rgb(229, 1, 18);}
-    21%  {color:rgb(231, 0, 52);}
-    25.2%  {color:rgb(229, 1, 80);}
-    29.4%  {color:rgb(229, 0, 105);}
-    33.6%  {color:rgb(229, 0, 126);}
-    37.8% {color:rgb(190, 1, 129);}
-    42% {color:rgb(147, 7, 132);}
-    46.2% {color:rgb(96, 24, 132);}
-    50.4% {color:rgb(29, 32, 135);}
-    54.6% {color:rgb(1, 71, 157);}
-    58.8% {color:rgb(1, 104, 183);}
-    63% {color:rgb(1, 134, 209);}
-    67.2% {color:rgb(2, 160, 233);}
-    71.4% {color:rgb(1, 159, 194);}
-    75.6% {color:rgb(1, 158, 151);}
-    79.8% {color:rgb(0, 155, 107);}
-    84% {color:rgb(0, 154, 68);}
-    88.2% {color:rgb(37, 171, 58);}
-    92.4% {color:rgb(143, 195, 32);}
-    96.8% {color:rgb(208, 220, 0);}
-    100%   {color:rgb(254, 241, 0);}
+    0% {color: #FEF100;}
+    4.2% {color: #FBC701;}
+    8.4% {color: #F49600;}
+    12.6% {color: #EB6100;}
+    16.8% {color: #E50112;}
+    21% {color: #E70034;}
+    25.2% {color: #E50150;}
+    29.4% {color: #E50069;}
+    33.6% {color: #E5007E;}
+    37.8% {color: #BE0181;}
+    42% {color: #930784;}
+    46.2% {color: #601884;}
+    50.4% {color: #1D2087;}
+    54.6% {color: #01479D;}
+    58.8% {color: #0168B7;}
+    63% {color: #0186D1;}
+    67.2% {color: #02A0E9;}
+    71.4% {color: #019FC2;}
+    75.6% {color: #019E97;}
+    79.8% {color: #009B6B;}
+    84% {color: #009A44;}
+    88.2% {color: #25AB3A;}
+    92.4% {color: #8FC320;}
+    96.8% {color: #D0DC00;}
+    100% {color: #FEF100;}
 }
 
 /* 回到顶部按钮开始 */
