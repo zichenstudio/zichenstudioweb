@@ -1,11 +1,10 @@
 /* 超链接的访问效果 */
-
-.start a {
+a {
     color: #000;
     text-decoration: none;
 }
-.start a:hover,
-.start a:active {
+a:hover,
+a:active {
     color: #39C5BB;
     text-decoration: underline;
 }
