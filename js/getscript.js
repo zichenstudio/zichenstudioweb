@@ -19,10 +19,3 @@ $.getScript('https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/hi
         hljs.highlightAll();
     });
 });
-
-// ScrollReveal.js文件
-// 顺次加载
-$.getScript('https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js', function() {
-    $.getScript('/js/ScrollReveal-options.js');
-})
-
