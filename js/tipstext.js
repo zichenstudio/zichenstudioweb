@@ -35,6 +35,7 @@ $(document).ready(function() {
     let tipsTextWrite = () => {
         let randomIndex = Math.floor(Math.random() * tipsJsonTextNum);
         $('.tipsText').html(tipsJsonText[randomIndex].tips);
+        console.log('引索:' + randomIndex + '个' + '|' + '文件第:' + (randomIndex + 2) + '行');
         egg++;
         tipsTextEgg();
     };
