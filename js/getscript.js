@@ -8,14 +8,9 @@
 // copyright.js文件
 $.getScript("/js/copyright.js");
 
-// blog-code-line.js文件
-$.getScript("/js/blog-code-line.js");
-
 // highlight.js文件
 // 顺次加载
 $.getScript('https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js', function() {
     $('head').append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/default.min.css">');
-    $.getScript('/js/blog-code-line.js', function() {
-        hljs.highlightAll();
-    });
+    hljs.highlightAll();
 });
