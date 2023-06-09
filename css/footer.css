@@ -1,5 +1,5 @@
 /* 一言彩色css */
-.footer {
+footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -8,7 +8,7 @@
     padding: 20px;
     float: right;
 }
-.footer a {
+footer a {
     animation: footercolor 24s infinite -2s;
     color: rgb(254, 241, 0);
 }
