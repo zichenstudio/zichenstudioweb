@@ -6,7 +6,7 @@ $.ajax({
      success(data) {
           dataNum = 0;
           function updateWrite() {
-               if (dataNum < 26) {
+               if (dataNum < 10) {
                     sha = data[dataNum].sha;
                     committerDate = 'UTC: ' + data[dataNum].commit.committer.date.substring(0, 10) + ' ' + data[dataNum].commit.committer.date.substring(11, 19);
                     message = data[dataNum].commit.message;
