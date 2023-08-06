@@ -2,9 +2,8 @@
 [简体中文](/README.md) | Sorry, we don't have English language :(
 
 [![Author](https://img.shields.io/badge/Author-ZiChenStudio-39c5bb.svg?style=flat-square)](https://github.com/ZiChenStudio)
-[![License](https://img.shields.io/github/license/ZiChenStudio/zichenstudioweb.svg?style=flat-square)](https://github.com/ZiChenStudio/zichenstudioweb/blob/master/LICENSE
-)
-[Netlify Status](https://app.netlify.com/sites/zichenstudio/deploys)
+[![License](https://img.shields.io/github/license/ZiChenStudio/zichenstudioweb.svg?style=flat-square)](https://github.com/ZiChenStudio/zichenstudioweb/blob/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c8b96c79-1e96-4899-b5cb-bacd2d108e8a/deploy-status)](https://app.netlify.com/)
 
 
 ## 欢迎
