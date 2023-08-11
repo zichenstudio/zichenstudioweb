@@ -17,3 +17,7 @@ $.getScript('https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/hi
 
 // vim-control.js文件
 $.getScript("/js/vim-control.js");
+
+// musicPlayer.js 文件
+$.getScript('/js/musicPlayer.js');
+
