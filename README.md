@@ -69,9 +69,7 @@ BiliBili<br>
 ## 建议&问题
 访问[*issue*](https://github.com/ZiChenStudio/zichenstudioweb/issues "Github Issues")
 
----
+# LICENSE
 
-## END
+[MIT LICENSE](/LICENSE)
 
-希望你会喜欢这里<br>
-:-D
