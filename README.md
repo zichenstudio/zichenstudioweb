@@ -31,13 +31,6 @@
 ZiChenStudio & ZiChen Official Team
 > Tips:其实是一个团队。
 
-## 储存库
-我们将网页文件分为2个储存库<br>
-它们的链接：
-- [Github](https://github.com/ZiChenStudio/zichenstudioweb)
-- [Gitee](https://gitee.com/zichenstudio/zichenstudioweb)
-
-其中Gitee仅与Github进行同步，并不进行commit，如果查看最新改动，请访问上面的Github。
 ## 反馈
 反馈邮箱:
 
