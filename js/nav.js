@@ -1,9 +1,9 @@
 let navItems = [
-  { href: '/index.html', title: '首页' },
-  { href: '/blog/index.html', title: 'Blog' },
-  { href: '/html/project.html', title: '项目与软件' },
-  { href: '/html/tips.html', title: '小提示' },
-  { href: '/html/contact.html', title: '联系我们' }
+    {href: '/index.html', title: '首页'},
+    {href: 'https://zichenstudio.github.io/blog/', title: 'Blog'},
+    {href: '/html/project.html', title: '项目与软件'},
+    {href: '/html/tips.html', title: '小提示'},
+    {href: '/html/contact.html', title: '联系我们'}
 ];
 
 let navHtml = `
