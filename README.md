@@ -25,7 +25,7 @@
 ### 普通网页
 
 - [主页](https://zichenstudio.netlify.app/)
-- [Blog](https://zichenstudio.netlify.app/blog/)
+- [Blog](https://zichenstudio.github.io/blog/)
 
 ## 开发者
 ZiChenStudio & ZiChen Official Team
