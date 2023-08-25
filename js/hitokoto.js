@@ -7,19 +7,13 @@ function gethitokoto() {
         async: false,
         success(data) {
             $("#hitokoto_text").attr("href", "https://hitokoto.cn/?uuid=" + data.uuid);
-            // 判断来源空值
-            no_from_who = (data.from_who === null || data.from_who === undefined || data.from_who === '') ? 1 : 0;
-            no_from = (data.from === null || data.from === undefined || data.from === '') ? 1 : 0;
-            from_who = (no_from_who === 1) ? '' : String(data.from_who);
-            from = (no_from === 1) ? '' : String('[' + data.from + ']');
-
-            hitokotoText = (no_from_who === 1 && no_from === 1) ? String(data.hitokoto) :
-                (no_from_who === 1) ? String(data.hitokoto) + '------' + from :
-                    (no_from === 1) ? String(data.hitokoto) + '------' + from_who :
-                        String(data.hitokoto) + '------' + from_who + from;
-            // 一个漂亮的输出
+            let hitokoto = data.hitokoto;
+            let from = "-----" + data.from;
+            let fromWho = "[" + data.from_who + "]";
+            let hitokotoText = hitokoto
+                + (data.from !== null ? from : '')
+                + (data.from_who !== null ? fromWho : '');
             $('#hitokoto_text').text(hitokotoText);
-            delete hitokotoText;
         },
     });
 };
