@@ -1,0 +1,27 @@
+main * {
+    box-sizing: border-box;
+    position: relative;
+}
+main .left {
+    float: left;
+    width: 75%;
+}
+main aside {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+@media screen and (max-width: 800px) {
+    main .left,
+    main aside {
+        width: 100%;padding: 0;
+    }
+}
+.up{
+    float: right;
+    position: fixed;
+    height: 100px;  
+    width: 100px;
+    top: 65%;
+    right:5px;
+}

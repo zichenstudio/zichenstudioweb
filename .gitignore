@@ -1,9 +1,6 @@
-# 一些缓存的文件
 *.cache
 *.bak
 *.tmp
 *.swp
-
-# 一些不用文件
 *.log
 *.iso
