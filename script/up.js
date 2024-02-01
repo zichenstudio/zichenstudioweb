@@ -1,4 +1,4 @@
-const upButton = document.querySelector(".up");
+const upButton = document.querySelector('.up');
 upButton.innerHTML = `
   <a href="javascript:void(0);" id="upLink">
     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">

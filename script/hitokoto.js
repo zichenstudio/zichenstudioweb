@@ -4,9 +4,9 @@ async function fetchhitokoto() {
     if (response.ok) {
       const data = await response.json();
       const {uuid, hitokoto, from_who, from} = data;
-      const hitokotohtml = document.querySelector('#hitokoto_text');
-      hitokotohtml.href = `https://hitokoto.cn/?uuid=${uuid}`;
-      hitokotohtml.innerText = `${hitokoto}${from || from_who ? '——' : ''}${from_who || ''}${from ? `[${from}]` : ''}`;
+      const hitokotoHtml = document.querySelector('#hitokoto_text');
+      hitokotoHtml.href = `https://hitokoto.cn/?uuid=${uuid}`;
+      hitokotoHtml.innerText = `${hitokoto}${from || from_who ? '——' : ''}${from_who || ''}${from ? `[${from}]` : ''}`;
     } else {
       console.error('fetch request failed.');
     }

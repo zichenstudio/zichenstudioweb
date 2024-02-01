@@ -1,4 +1,4 @@
-const tipsTextElement = document.querySelector(".tips-text");
+const tipsTextElement = document.querySelector('.tips-text');
 const tipsTextEggElement = document.querySelector('.tips-text-egg');
 let clickCount = 0;
 async function fetchTips() {
