@@ -2,8 +2,8 @@
 
 [简体中文](README.md) | Sorry, we don't have English language :(
 
-[![Author](https://img.shields.io/badge/Author-ZiChenStudio-39c5bb.svg?style=flat-square)](https://github.com/ZiChenStudio)
-[![License](https://img.shields.io/github/license/ZiChenStudio/zichenstudioweb.svg?style=flat-square)](https://github.com/ZiChenStudio/zichenstudioweb/blob/master/LICENSE)
+[![Author](https://img.shields.io/badge/Author-ZiChenStudio-39c5bb.svg?style=flat-square)](https://github.com/zichenstudio)
+[![License](https://img.shields.io/github/license/zichenstudio/zichenstudioweb.svg?style=flat-square)](https://github.com/zichenstudio/zichenstudioweb/blob/master/LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c8b96c79-1e96-4899-b5cb-bacd2d108e8a/deploy-status)](https://app.netlify.com/)
 
 
@@ -36,7 +36,7 @@ ZiChenStudio & ZiChen Official Team
 
 ## 反馈
 
-[联系我们](https://zichenstudio/pages/contact.html)
+[联系我们](https://zichenstudio.netlify.app/pages/contact.html)
 
 如果您想反馈Bug或建议，请在邮件中附上 **您的名字(昵称)或个人网站(博客等，如果没有默认以邮箱代替)** <br>
 如果您反馈了有用的Bug或建议，我们会将您的个人信息放置在[特别鸣谢](#特别鸣谢)的名单中。
@@ -47,7 +47,7 @@ ZiChenStudio & ZiChen Official Team
 
 ## 建议&问题
 
-访问[*issue*](https://github.com/ZiChenStudio/zichenstudioweb/issues "Github Issues")
+访问[*issue*](https://github.com/zichenstudio/zichenstudioweb/issues "Github Issues")
 
 # LICENSE
 
