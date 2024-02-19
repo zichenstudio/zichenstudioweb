@@ -4,5 +4,7 @@ document.querySelector('footer').innerHTML = '<hr>' +
     '向上箭头：<a href="https://www.iconfinder.com/icons/211648/up_chevron_icon">ICONFINDER</a><br>' +
     'Copyright (c) 2019-2023 ZiChenStudio Official';
 document.querySelector('article:last-child').innerHTML += '<br><br><br><br><br><br><br><br>';
-document.querySelector('aside article:last-child').innerHTML += '<br><br><br><br><br><br><br><br>';
-
+const asideArticle = document.querySelector('aside article:last-child');
+if (asideArticle) {
+  asideArticle.innerHTML += '<br><br><br><br><br><br><br><br>';
+}
