@@ -11,16 +11,6 @@
 
 我真诚的感谢您能访问这里<br>因为这里真的太荒凉了<br>如果可以，我希望您能向我们反馈您的宝贵意见<br>如果反馈，请参见下文[反馈](#反馈)。
 
-## 自我介绍
-
-- 子沉工作室 (ZiChenStudio)
-  - 全称: 子沉工作室 (ZiChenStudio)
-  - 简称: 子沉 (ZCS)
-
-- 子沉官方团队 (ZiChen Official Team)
-  - 全称: 子沉官方团队 (ZiChen Official Team)
-  - 简称: 子沉团队 (ZCOT)
-
 ## 网页
 
 如果您想查看我们的网页，请访问下面的[链接](#普通网页)
@@ -28,11 +18,6 @@
 ### 普通网页
 
 - [主页](https://zichenstudio.netlify.app/)
-
-## 开发者
-
-ZiChenStudio & ZiChen Official Team
-> Tips:其实是一个团队。
 
 ## 反馈
 
