@@ -4,4 +4,5 @@ footer {
   left: 0;
   width: 100%;
   text-align: center;
+  backdrop-filter: blur(2.3px);
 }
