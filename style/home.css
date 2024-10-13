@@ -21,8 +21,13 @@ main aside {
 .up{
   float: right;
   position: fixed;
-  height: 100px;  
   width: 100px;
+  height: 100px;
   top: 65%;
   right: 5px;
+}
+@media (max-width: 600px) {
+  .up{
+    transform: scale(0.7);
+  }
 }
