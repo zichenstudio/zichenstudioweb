@@ -1,5 +1,7 @@
 # **子沉官方网站的储存库**
 
+# 已迁移至[zichenstudio/website](https://github.com/zichenstudio/website)储存库
+
 [简体中文](README.md) | Sorry, we don't have English language :(
 
 [![Author](https://img.shields.io/badge/Author-ZiChenStudio-39c5bb.svg?style=flat-square)](https://github.com/zichenstudio)
